@@ -1,0 +1,33 @@
+1406  git commit -m "commit 01 de MardelysTorres"
+ 1407  git branch -M main
+ 1408  git remote add origin https://github.com/Mardelys/20230605-MardelysTorres.git
+ 1409  git push -u origin main
+ 1410  touch comandos.txt main.js index.html
+ 1411  git add .
+ 1412  git commit -m "commit 02 de MardelysTorres"
+ 1413  git push origin main
+ 1414  git branch feature
+ 1415  git checkout feature
+ 1416  git branch
+ 1417  mkdir Hardware Software SeguridadInformática
+ 1418  cd Hardware
+ 1419  touch resume.txt
+ 1420  cd ../Software
+ 1421  touch resumen.txt
+ 1422  cd ../SeguridadInformatica
+ 1423  cd ..
+ 1425  cd SeguridadInformatica
+ 1426  touch resumen.txt
+ 1427  git add .
+ 1428  git commit -m "commit 03 de MardelysTorres"
+ 1429  git checkout main
+ 1430  git branch
+ 1431  cd ..
+ 1432  git branch
+ 1433  mv main.js resumenHardware.txt
+ 1434  mv index.html resumenSoftware.txt
+ 1435  echo "Navegador web, Reproductor Multimedia y  Suite de oficina" > resumenSoftware.txt
+ 1436  echo "Memoria RAM, Memoria ROM y Memoria Caché" > resumenHardware.txt
+ 1437  ls 
+ 1438  ls -R
+ 1439  history
